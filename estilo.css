@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(62, 3, 117);
+    
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+    display: flex;
+    height: inherit;
+}
+.header{
+    background: rgb(0, 0, 0);
+    color: rgb(0, 255, 8);
+   display: flex;
+   justify-content: space-between;
+   height: 90px;
+}
+.header li {
+    height: inherit;
+}
+.header a {
+    color: rgb(254, 254, 5);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+width:90px;
+}
+.menu{
+    height: inherit;
+    font-family: 'Exo 2', sans-serif;
+}
+.Principal{
+   background: rgb(0, 217, 29);
+   background-image: url(img/Crema\ Marrón\ Fotográfico\ Belleza\ Plataforma\ Lanzamiento\ Sitio\ Web.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 100px; 
+   margin: 20px;
+   font-family: 'Exo 2', sans-serif;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 217, 29);
+}
+h1 strong {
+    color: rgb(195, 209, 1);
+}
+.pricipal-button{
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.pricipal-button a{
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+.Principal img{
+    width: 300px;
+}
+.Second{
+   background: #a9ba92;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 50px;
+   margin: 20px;
+   font-family: 'Exo 2', sans-serif;
+}
+
+.Second h1{
+    color: black;
+}
+
+.Servicio{
+background: black;
+color: yellowgreen;
+text-align: center;
+   padding: 50px;
+   margin: 20px;
+   font-family: 'Exo 2', sans-serif;
+}
+
+ h6{
+   font-size: 10px; 
+ }
+
+.td{
+    width: 275px;
+    text-align: center;
+}
+
+.footer {
+    background: rgb(0, 14, 4);
+    color: rgb(236, 253, 0);
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.footer table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.footer table td:first-child {
+    text-align: left;
+}
+
+
+.footer table a {
+    text-decoration: none;
+}
